@@ -1,0 +1,21 @@
+{
+  "name": "rxjs-backpressure",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "https://github.com/hitmands/rxjs-backpressure.git",
+  "author": "Giuseppe Mandato <giuseppemandato@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc -p ./tsconfig.build.json"
+  },
+  "peerDependencies": {
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "rxjs": "^7.5.5",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}
